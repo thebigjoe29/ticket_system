@@ -1,0 +1,97 @@
+.contact-page {
+    display: flex;
+    padding: 5%;
+    margin-left: 20%;
+    margin-top: -8%;
+    
+  }
+  
+  .left-panel {
+    width: 50%;
+    margin-left: 10%;
+    background-color: #2E2C34;
+    height: 80%;
+  }
+  
+  .right-panel {
+    width: 50%;
+    padding: 0%;
+    margin-left: 5%;
+    
+  }
+  
+  .contact-info {
+   
+    width: 100%;
+    color: #ffffff;
+    height: 120%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .contact-info h2{
+    margin-left: 22%;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group input{
+    width: 50%;
+  }
+  .contact-info p {
+    margin-bottom: 20%; /* Adjust the space between paragraphs as needed */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 50%; /* Make the input boxes smaller */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  button {
+    background-color: #2E2C34;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20%;
+  }
+  
+  button:hover {
+    background-color: #2E2C34;
+  }
+  .circle-small{
+    width: 120px;
+   height: 120px;
+   background-color: rgba(72, 72, 72, 0.50);
+   border-radius: 50%;
+   margin-left: 55%;
+  }
+  .circle-big{
+    width: 160px;
+   height: 160px;
+   background-color: #1A1A1A;
+   border-radius: 50%;
+   margin-left: 60%;
+  }
+  .email-logo{
+    height: 35px;
+    width: 35px;
+  }
+  .phone-logo{
+    height: 35px;
+    width: 35px;
+  }
+  .address-logo{
+    height: 35px;
+    width: 35px;
+  }
+  

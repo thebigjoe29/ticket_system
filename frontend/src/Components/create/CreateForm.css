@@ -1,0 +1,44 @@
+.ticket-form {
+    background-color: #faf9f9;
+    color: #080808;
+    padding: 20px;
+    border-radius: 8px;
+    width: 65%;
+    margin-right:70%;
+    margin-top:10%;
+    margin-bottom: 2%;
+    border: 2px solid #000;
+    margin-left: 25%;
+  }
+  
+  .ticket-form h2 {
+    margin-bottom: 0%;
+    margin-top:3%;
+  }
+  
+  .ticket-form label {
+    display: block;
+    margin-top: 2%;
+  }
+  
+  .ticket-form select,
+  .ticket-form input,
+  .ticket-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-form button {
+    background-color: #2E2C34;
+    color: #f9f5f5;
+    margin-left:45%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ticket-form button:hover {
+    background-color: #2E2C34;
+  }
+  

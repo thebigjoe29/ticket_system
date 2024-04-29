@@ -1,0 +1,126 @@
+.dashboard-container {
+    background-color: #fff;
+    color: #2E2C34;
+    padding: 20px;
+    margin: 20px;
+    width: 75%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:-0%;
+    margin-left: 20%; 
+  }
+  
+  .dashboard-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .search-create-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width:35%;
+    margin-right: 10px;
+  }
+  
+  .create-ticket-btn {
+    padding: 10px;
+    background-color: #2E2C34;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .status-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5%;
+  }
+  
+  .status-btn {
+    padding: 10px 16px;
+    margin-right: 10px;
+    background-color: #2E2C34;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    display:flex;
+  }
+  .button-logo {
+    width: 20px; 
+    height: auto; 
+    margin-right: 5px; 
+  }
+  .status-btn.all-tickets {
+    padding: 2%; 
+    margin-left: auto;
+    background-color: #2E2C34;
+    color: #fff;
+  }
+  .tickets-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .ticket-item {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #2E2C34; /* Added black border */
+    border-radius: 5px;
+  }
+  .ticket-item p:second-child {
+    border-bottom: 1px solid #2E2C34;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .ticket-item p:first-child {
+    font-weight: bold; /* Make the ticket number bold */
+  }
+  .pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end
+  }
+  
+  .pagination-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .pagination-item {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #2E2C34;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination-item:hover {
+    background-color: #2E2C34;
+  }
+  .create-ticket-btn {
+    padding: 0px;
+    width: 20%;
+    background-color: #2E2C34;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 80%; 
+    margin-top:-5%;
+    display: flex;
+    align-items: center;
+  }
+  .create-logo{
+    margin-left: 2%;
+  }

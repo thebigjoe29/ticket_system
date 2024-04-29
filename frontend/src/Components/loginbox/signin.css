@@ -1,0 +1,79 @@
+
+
+.loginbox {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 60%;
+  margin-left: 40%;
+  display: flexbox;
+  align-items: center;
+  }
+
+  
+.ggl{
+  margin-left: 17%;
+}
+
+.account-text{
+  color: #000000;
+  font-family: "Space Grotesk-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  margin-left: 38%;
+  margin-top: 15%;
+}
+.or{
+  color: #969393;
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-left: 47%;
+}
+.sign-up-form{
+  display: flex;
+  flex-direction: column; 
+  width: 65%;
+  height: 400px;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+.sign-up-form input{
+  width: 100%;
+}
+.formtext{
+  color: #b0b0b0;
+  font-family: "Space Grotesk-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid #b0b0b0;
+  padding: 5px;
+  margin-top: 10%;
+  margin-left: -7%;
+}
+.submitbtn{
+  color: #ffffff;
+  font-family: "Space Grotesk-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 15%;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 20px;
+  margin-top: 13%;
+  margin-left: -6%;
+}
+.already{
+  color: #b0b0b0;
+  font-family: "Space Grotesk-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 15%;
+}
